@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pricing Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <h2>Price Calculator</h2>
+      <label for="boardPrice">Board Price:</label>
+      <input type="number" id="boardPrice" placeholder="Enter board price" />
+      <label for="boardWidth">Board Width:</label>
+      <input type="number" id="boardWidth" placeholder="Enter board width" />
+      <label for="boardHeight">Board Height:</label>
+      <input type="number" id="boardHeight" placeholder="Enter board height" />
+      <label for="pieceWidth">Piece Width:</label>
+      <input type="number" id="pieceWidth" placeholder="Enter piece width" />
+      <label for="pieceHeight">Piece Height:</label>
+      <input type="number" id="pieceHeight" placeholder="Enter piece height" />
+      <button onclick="calculatePrice()">Calculate</button>
+      <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
