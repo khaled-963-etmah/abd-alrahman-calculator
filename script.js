@@ -1,8 +1,8 @@
 function calculatePrice() {
   // Get input values
   const boardPrice = parseFloat(document.getElementById("boardPrice").value);
-  const boardWidth = parseFloat(document.getElementById("boardWidth").value);
-  const boardHeight = parseFloat(document.getElementById("boardHeight").value);
+  const boardWidth = 240; // Fixed value
+  const boardHeight = 120; // Fixed value
   const pieceWidth = parseFloat(document.getElementById("pieceWidth").value);
   const pieceHeight = parseFloat(document.getElementById("pieceHeight").value);
 
